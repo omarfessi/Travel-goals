@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(77, 77, 77);
+}
+header {
+    position: static;
+}
+
+main ul {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+main ul li {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /*to prevent the img to overflow through corners of the li, hence round corners*/
+}
+.item-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main li img {
+    width: 300px;
+    height: 280px;
+}
+
+.actions {
+    text-align: right;
+}
+.actions a {
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(22, 211, 228);
+}
+.actions a:hover {
+    background-color: #7ca2a5;
+    border-radius: 8px;
+}
