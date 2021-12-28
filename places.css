@@ -20,7 +20,7 @@ main ul {
     margin: 0 auto 48px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap : 20px 20px
+    gap: 20px 20px;
 }
 li:nth-of-type(3) {
     grid-column: 1 /span 2; /*start from 1st col and span across 2 col*/
@@ -39,9 +39,13 @@ main ul li {
     flex-direction: column;
     justify-content: space-between;
 }
+.item-content h2{
+    margin: 0;
+}
 main li img {
     width: 300px;
     height: 280px;
+    object-fit: cover;
 }
 
 .actions {
