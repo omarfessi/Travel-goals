@@ -5,7 +5,16 @@ body {
 header {
     position: static;
 }
-
+header nav ul li a{
+    color: rgb(143, 216, 223);
+}
+header nav ul li a:hover{
+    background-color: rgb(143, 216, 223);
+    color: rgb(59, 59, 59);
+}
+#page-logo a {
+   color: rgb(143, 216, 223);
+}
 main ul {
     width: 1200px;
     margin: 0 auto 48px auto;
